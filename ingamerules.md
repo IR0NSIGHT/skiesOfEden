@@ -2,7 +2,7 @@
 - Be polite to eachother in chat.
 - Keep chat clear of spam.
 - If someone is impolite, that does not give you the right to be disrespectful.
-- No politics, no symbols of hate, no provocations, no trolling, no flaming, etc etc.
+- No politics, no symbols of hate, no provocations, no flaming, etc etc.
 	
 # Ingame rules:
 - Players:
