@@ -1,10 +1,10 @@
-General reules:
-	- Be polite to eachother in chat.
-	- Keep chat clear of spam.
-	- If someone is impolite, that does not give you the right to be disrespectful.
-	- No politics, no symbols of hate, no provocations, no trolling, no flaming, etc etc.
+# General rules:
+- Be polite to eachother in chat.
+- Keep chat clear of spam.
+- If someone is impolite, that does not give you the right to be disrespectful.
+- No politics, no symbols of hate, no provocations, no trolling, no flaming, etc etc.
 	
-Ingame rules:
+# Ingame rules:
 - Players:
 	- Do not abuse gamebugs or glitches to give yourself an advantage.
 	- Combat is allowed and encouraged. Bullying is not. If someone has lost and can't fight back anymore, leave them alone.
