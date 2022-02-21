@@ -1,0 +1,16 @@
+
+
+
+x +200, y +/- 1000
+range:
+outward gate:
+/teleport_to admin_ir0nsight 200 0 -2000  //x correct needed because the gate center is offset from the station center
+inward/coreward gate:
+/teleport_to admin_ir0nsight 200 0 -2000
+
+
+
+0, 0, 0 - Eden Prime
+-120, 0, -40 - Guggenmos
+-300, 30, -20 - Bloodlust II
+-410, 10, -40 - Midnight Vale
