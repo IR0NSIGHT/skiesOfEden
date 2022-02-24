@@ -1,5 +1,5 @@
 
-
+Gates
 
 x +200, y +/- 1000
 range:
@@ -9,9 +9,11 @@ inward/coreward gate:
 /teleport_to admin_ir0nsight 200 0 -2000
 
 
-
 0, 0, 0 - Eden Prime
 -120, 0, -40 - Guggenmos
 -300, 30, -20 - Bloodlust II
 -410, 10, -40 - Midnight Vale
 30, 50, 0 - Safe Heavens (PVE Area)
+
+PVE Areas:
+Safe Heavens: [0,32,-32]-[48,64,48]
