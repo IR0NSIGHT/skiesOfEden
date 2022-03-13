@@ -1,0 +1,41 @@
+# Config stuff:
+folder: 
+starmade install/data/config/blockBehaviourConfig.xml
+```        <WarpGate>
+                <BasicValues>
+                        <!-- OLD POWER-->
+                        <PowerNeededPerGateBlock>100</PowerNeededPerGateBlock> <!-- constant power consumption to keep the gate active -->
+                        <PowerNeededPerMass>100</PowerNeededPerMass> <!-- to Jump, the One Time Power Expense is shipMass * PowerNeededPerMass at the time of jumping-->
+                        <DistanceInSectors>138</DistanceInSectors> <!-- default: 4 systems -->
+                        
+                        <!-- NEW POWER -->
+                        <ReactorPowerNeededPerBlockPerSec>10</ReactorPowerNeededPerBlockPerSec> <!-- Reactor power needed per Second (there is no resting state) -->
+                        <ReactorPowerNeededPow>1.3</ReactorPowerNeededPow> <!-- exponential power usage -->
+                </BasicValues>
+        </WarpGate>
+```
+
+range:
+config is set in a way, that free-target gates have around 2500 km range.
+12 km sector size => 208 sectors
+effects apply that increase the base size defined in the blockBehaviourConfig:
+- base gate chamber: x1.5 distance
+- free target: no effect other than unlock free target.
+
+208 = 1.5*x <=> 208/1.5 = x
+208 = x /1.5
+placement of gates:
+outward gate:
+/teleport_to admin_ir0nsight 200 0 -2000  //x correct needed because the gate center is offset from the station center
+inward/coreward gate:
+/teleport_to admin_ir0nsight 200 0 2000
+
+List of gates:
+0, 0, 0 				Eden Prime
+-120, 0, -40 			Guggenmos
+-300, 30, -20  			Bloodlust II
+-410, 10, -40 	 		Midnight Vale
+30, 50, 0 				Safe Heavens
+
+PVE Areas:
+Safe Heavens: [0,32,-32]-[48,64,48]
