@@ -11,9 +11,9 @@
 
 	<FactionSystemOwnerBonus>
 		<BasicValues>
-			<MiningBonusOwner>12</MiningBonusOwner>
-			<MiningBonusOthers>6</MiningBonusOthers>
-			<MiningBonusUnowned>3</MiningBonusUnowned>
+			<MiningBonusOwner>10</MiningBonusOwner>
+			<MiningBonusOthers>10</MiningBonusOthers>
+			<MiningBonusUnowned>0</MiningBonusUnowned>
 		</BasicValues>
 	</FactionSystemOwnerBonus>
 
