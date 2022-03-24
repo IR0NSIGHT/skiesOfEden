@@ -1,0 +1,77 @@
+<Config>
+    <Group id="supership">
+        <E modtype="set" priority="-1" type="ai_disable">
+            <P name="value" type="boolean">
+                <value>true</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="jump_charge_time">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="set" priority="-1" type="jump_distance">
+            <P name="value" type="float">
+                <value>1.0</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="jump_charge_time">
+            <P name="value" type="float">
+                <value>0.5</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="warp_distance">
+            <P name="value" type="float">
+                <value>0.5</value>
+            </P>
+        </E>
+    </Group>
+	    <Group id="basebuff">
+        <E modtype="mult" priority="0" type="shield_capacity">
+            <P name="value" type="float">
+                <value>1.2</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="shield_capacity_upkeep">
+            <P name="value" type="float">
+                <value>0.8</value>
+            </P>
+        </E>
+        <E modtype="set" priority="0" type="shield_under_fire_timeout">
+            <P name="value" type="float">
+                <value>0.0</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="ai_accuracy_turret">
+            <P name="value" type="float">
+                <value>1.5</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="ai_accuracy_point_defense">
+            <P name="value" type="float">
+                <value>1.5</value>
+            </P>
+        </E>
+        <E modtype="set" priority="0" type="warhead_damage">
+            <P name="value" type="float">
+                <value>0.0</value>
+            </P>
+        </E>
+        <E modtype="set" priority="0" type="weapon_range">
+            <P name="value" type="float">
+                <value>1.5</value>
+            </P>
+            <P name="weapon_type" type="int">
+                <weapontype>0</weapontype>
+            </P>
+        </E>
+        <E modtype="mult" priority="0" type="weapon_damage">
+            <P name="value" type="float">
+                <value>1.5</value>
+            </P>
+            <P name="weapon_type" type="int">
+                <weapontype>0</weapontype>
+            </P>
+        </E>
+    </Group>
+</Config>
