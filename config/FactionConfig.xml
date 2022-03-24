@@ -28,7 +28,7 @@
 
 	<FactionPointIncome>
 		<BasicValues>
-			<GainedPerMember>20</GainedPerMember>
+			<GainedPerMember>0</GainedPerMember>
 			<GainedPerOnlineMember>50</GainedPerOnlineMember>
 		</BasicValues>
 	</FactionPointIncome>
@@ -38,16 +38,16 @@
 			<BasicFlatCost>1</BasicFlatCost>
 			<SpentAbsoluteForDeath>2</SpentAbsoluteForDeath>
 			<SpentForDeathMultByMemberCount>2</SpentForDeathMultByMemberCount>
-			<SpentPerControlledSystem>10</SpentPerControlledSystem>
+			<SpentPerControlledSystem>0</SpentPerControlledSystem>
 		</BasicValues>
 	</FactionPointSpending>
 
 	<FactionPointGalaxy>
 		<BasicValues>
 			<FreeHomeBase>true</FreeHomeBase>
-			<PenaltyFromCenterMult>10</PenaltyFromCenterMult>
-			<PenaltyPerDistanceUnitFromHomeBase>2</PenaltyPerDistanceUnitFromHomeBase>
-			<ThresholdTakenRadiusForTradeGates>30</ThresholdTakenRadiusForTradeGates>
+			<PenaltyFromCenterMult>0</PenaltyFromCenterMult>
+			<PenaltyPerDistanceUnitFromHomeBase>0</PenaltyPerDistanceUnitFromHomeBase>
+			<ThresholdTakenRadiusForTradeGates>0</ThresholdTakenRadiusForTradeGates>
 		</BasicValues>
 	</FactionPointGalaxy>
 
