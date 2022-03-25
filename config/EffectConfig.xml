@@ -1,4 +1,4 @@
-<Config hash="-7271157326625175197">
+<Config hash="-1797572396750900031">
     <Group id="stealth - cloaking">
         <E modtype="set" priority="0" type="stealth_cloak_capability">
             <P name="value" type="boolean">
@@ -8,6 +8,11 @@
         <E modtype="set" priority="0" type="stealth_jammer_capability">
             <P name="value" type="boolean">
                 <value>true</value>
+            </P>
+        </E>
+        <E modtype="mult" priority="3" type="stealth_usage_time">
+            <P name="value" type="float">
+                <value>10.0</value>
             </P>
         </E>
     </Group>
@@ -1021,7 +1026,7 @@
     <Group id="stealth - usage duration 2">
         <E modtype="mult" priority="0" type="stealth_usage_time">
             <P name="value" type="float">
-                <value>1.3333334</value>
+                <value>1.5</value>
             </P>
         </E>
     </Group>
@@ -1033,9 +1038,9 @@
         </E>
     </Group>
     <Group id="stealth - usage duration 4 permanent">
-        <E modtype="set" priority="1" type="stealth_usage_time">
+        <E modtype="mult" priority="1" type="stealth_usage_time">
             <P name="value" type="float">
-                <value>-1.0</value>
+                <value>4</value>
             </P>
         </E>
         <E modtype="set" priority="-1" type="stealth_active_resting_power_cons">
