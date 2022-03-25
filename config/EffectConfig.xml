@@ -1022,9 +1022,19 @@
                 <value>1.5</value>
             </P>
         </E>
+		<E modtype="mult" priority="1" type="stealth_charge_time">
+            <P name="value" type="float">
+                <value>1.5</value>
+            </P>
+        </E>
     </Group>
     <Group id="stealth - usage duration 2">
         <E modtype="mult" priority="0" type="stealth_usage_time">
+            <P name="value" type="float">
+                <value>1.5</value>
+            </P>
+        </E>
+		<E modtype="mult" priority="1" type="stealth_charge_time">
             <P name="value" type="float">
                 <value>1.5</value>
             </P>
@@ -1036,9 +1046,19 @@
                 <value>1.5</value>
             </P>
         </E>
+		<E modtype="mult" priority="1" type="stealth_charge_time">
+            <P name="value" type="float">
+                <value>1.5</value>
+            </P>
+        </E>
     </Group>
     <Group id="stealth - usage duration 4 permanent">
         <E modtype="mult" priority="1" type="stealth_usage_time">
+            <P name="value" type="float">
+                <value>4</value>
+            </P>
+        </E>
+		<E modtype="mult" priority="1" type="stealth_charge_time">
             <P name="value" type="float">
                 <value>4</value>
             </P>
