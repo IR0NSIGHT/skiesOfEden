@@ -1,0 +1,102 @@
+<Config>
+	<Element>
+		<General>
+			<Hulls>
+				<Basic>
+					<Grey>
+
+						<!-- this will only replace the price of the grey hull in the config 
+							and leave any other value alone -->
+						<Block icon="530" name="Grey Hull" textureId="567,567,567,567,567,567" type="GREY_HULL">
+							<Price>100000</Price>
+						</Block>
+					</Grey>
+				</Basic>
+			</Hulls>
+			<!-- this is a full cusom block. the texture Ids for the custom texture 
+				sheet goes from [1792 to 2047] (256 values) -->
+			<!-- It will be placed in the decoration category on the shop -->
+			<Decoration>
+				<Block icon="767" name="My new block" textureId="1792,1792,1792,1792,1792,1792" type="CUSTOM_ID_000">
+					<Consistence>
+						<Item count="1">ALLOYED_METAL_MESH</Item>
+						<Item count="1">CRYSTAL_COMPOSITE</Item>
+						<Item count="1">FERTIKEEN_CAPSULE</Item>
+					</Consistence>
+					<CubatomConsistence />
+					<ArmorValue>500.0</ArmorValue>
+					<EffectArmor>
+						<Heat>0.0</Heat>
+						<Kinetic>0.0</Kinetic>
+						<EM>0.0</EM>
+					</EffectArmor>
+					<Price>50</Price>
+					<Description>Although unarmored and with average health, factories
+						can quickly and easily create Basic Armor by processing a small
+						amount of basic materials. </Description>
+					<BlockResourceType>2</BlockResourceType>
+					<ProducedInFactory>3</ProducedInFactory>
+					<BasicResourceFactory>0</BasicResourceFactory>
+					<FactoryBakeTime>5.0</FactoryBakeTime>
+					<InventoryGroup>basicgreyhull</InventoryGroup>
+					<Animated>false</Animated>
+					<StructureHPContribution>0</StructureHPContribution>
+					<Transparency>false</Transparency>
+					<InShop>true</InShop>
+					<Orientation>false</Orientation>
+					<BlockComputerReference>0</BlockComputerReference>
+					<Slab>0</Slab>
+					<SlabIds>700, 699, 698</SlabIds>
+					<StyleIds>599, 600, 601, 602</StyleIds>
+					<SlabReference>0</SlabReference>
+					<GeneralChamber>false</GeneralChamber>
+					<ChamberCapacity>0.0</ChamberCapacity>
+					<ChamberRoot>0</ChamberRoot>
+					<ChamberParent>0</ChamberParent>
+					<ChamberUpgradesTo>0</ChamberUpgradesTo>
+					<ChamberPermission>0</ChamberPermission>
+					<ChamberPrerequisites>{}</ChamberPrerequisites>
+					<ChamberMutuallyExclusive>{}</ChamberMutuallyExclusive>
+					<ChamberChildren>{}</ChamberChildren>
+					<ChamberAppliesTo>0</ChamberAppliesTo>
+					<ReactorHp>0</ReactorHp>
+					<ReactorGeneralIconIndex>0</ReactorGeneralIconIndex>
+					<Enterable>false</Enterable>
+					<Mass>0.05</Mass>
+					<Volume>0.05</Volume>
+					<Hitpoints>250</Hitpoints>
+					<Placable>true</Placable>
+					<InRecipe>true</InRecipe>
+					<CanActivate>false</CanActivate>
+					<IndividualSides>1</IndividualSides>
+					<SideTexturesPointToOrientation>false
+					</SideTexturesPointToOrientation>
+					<HasActivationTexture>false</HasActivationTexture>
+					<MainCombinationController>false</MainCombinationController>
+					<SupportCombinationController>false</SupportCombinationController>
+					<EffectCombinationController>false</EffectCombinationController>
+					<Physical>true</Physical>
+					<BlockStyle>0</BlockStyle>
+					<LightSource>false</LightSource>
+					<Door>false</Door>
+					<SensorInput>false</SensorInput>
+					<Deprecated>false</Deprecated>
+					<ResourceInjection>0<!--off -->
+					</ResourceInjection>
+					<ExplosionAbsorbtion>0.0</ExplosionAbsorbtion>
+					<LightSourceColor>1.0,1.0,1.0,1.0</LightSourceColor>
+					<ExtendedTexture4x4>false</ExtendedTexture4x4>
+					<OnlyDrawnInBuildMode>false</OnlyDrawnInBuildMode>
+					<LodShapeFromFar>0</LodShapeFromFar>
+					<LowHpSetting>false</LowHpSetting>
+					<OldHitpoints>75</OldHitpoints>
+					<SystemBlock>false</SystemBlock>
+				</Block>
+			</Decoration>
+
+		</General>
+
+
+	</Element>
+</Config>
+              

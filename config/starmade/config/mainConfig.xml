@@ -1,0 +1,967 @@
+<!-- This File Contains the Entity Configuration --><Model>
+
+	
+	
+	<GroundObject path="/models/ground/">
+        <Sky filename="sky" relpath="."/>
+        <Box filename="box" relpath="."/>
+        <Sphere filename="sphere-low" relpath="."/>
+        <SphereLowPoly filename="Sphere-LowPoly" relpath="."/>
+        <Cylinder filename="cylinder" relpath="."/>
+        <GeoSphere filename="GeoSphere300x10" relpath="."/>
+        <Planet filename="planet" relpath="."/>
+        <Atmosphere filename="atmosphere" relpath="."/>
+        <Asteroid filename="asteroid" relpath="."/>
+        <ExhaustPlum filename="exaustplum" relpath="."/>
+        <SimpleBeam filename="simplebeam" relpath="."/>
+        <Arrow filename="arrow" relpath="."/>
+        <BlackHole filename="blackhole" relpath="."/>
+        <Debris00 filename="BlDebris0" physicsmesh="convexhull" relpath="."/>
+        <Tube filename="fnTube" relpath="."/>
+        <CameraDrone filename="CameraDrone" relpath="cameradrone"/>
+    </GroundObject>
+	
+	<Building path="/models/buildings/"/>
+	
+	<Gear path="/models/gear/">
+        <PowerSupplyBeam filename="AccPowerBeam" relpath="Power"/>
+        <BuildInhibitor filename="AccBuildInhibitor" relpath="Inhibitor"/>
+        <HealingBeam filename="HealBeam" relpath="HealingBeam"/>
+        <Fabricator filename="AccFabricator" relpath="Fabricator"/>
+        <Pistol filename="AccPistol" relpath="Pistol"/>
+        <Torch filename="AccTorch" relpath="Torch"/>
+        <Helmet filename="AccHelmet" relpath="Helmet"/>
+        <MarkerBeam filename="AccMarkerBeam" relpath="MarkerBeam"/>
+        <GrappleBeam filename="AccGrappleBeam" relpath="GrappleBeam"/>
+    </Gear>
+	<Mine path="/models/mines/">
+        <MineTypeA filename="MineCannon" relpath="."/>
+        <MineTypeA-Active filename="MineCannon-Active" relpath="."/>
+        <MineTypeA-LOD-Medium filename="MineCannon-LowPoly" relpath="."/>
+        <MineTypeA-LOD-Medium-Active filename="MineCannon-ActiveLowPoly" relpath="."/>
+        <MineTypeA-LOD-Far filename="MineCannon-LowPoly" relpath="."/>
+        <MineTypeA-LOD-Far-Active filename="MineCannon-ActiveLowPoly" relpath="."/>
+        <MineTypeB filename="MineMissile" relpath="."/>
+        <MineTypeB-Active filename="MineMissile" relpath="."/>
+        <MineTypeB-LOD-Medium filename="MineMissile" relpath="."/>
+        <MineTypeB-LOD-Medium-Active filename="MineMissile" relpath="."/>
+        <MineTypeB-LOD-Far filename="MineMissile" relpath="."/>
+        <MineTypeB-LOD-Far-Active filename="MineMissile" relpath="."/>
+        <MineTypeC filename="MineProximity" relpath="."/>
+        <MineTypeC-Active filename="MineProximity-Active" relpath="."/>
+        <MineTypeC-LOD-Medium filename="MineProximity" relpath="."/>
+        <MineTypeC-LOD-Medium-Active filename="MineProximity-ActiveLowPoly" relpath="."/>
+        <MineTypeC-LOD-Far filename="MineProximity" relpath="."/>
+        <MineTypeC-LOD-Far-Active filename="MineProximity-ActiveLowPoly" relpath="."/>
+    </Mine>
+	<LOD path="/models/lod/">
+        <Grate filename="Grate" relpath="Grate"/>
+        <GrateCorner filename="Grate_Corner" relpath="GrateCorner"/>
+        <GrateSlope filename="Grate_Slope" relpath="GrateSlope"/>
+        <GrateWedge filename="Grate_Wedge" relpath="GrateWedge"/>
+        <MetalBar filename="Metal_Bar" relpath="MetalBar"/>
+        <MetalCorner filename="Metal_Corner" relpath="MetalCorner"/>
+        <MushroomLod filename="Mushroom" relpath="Flora/Mushroom"/>
+        <ParseenCapsule filename="Parseen_Capsule" relpath="Capsule"/>
+        <Pipe filename="Pipe" relpath="Pipe"/>
+        <PipeCross filename="Pipe_Cross" relpath="PipeCross"/>
+        <PipeElbow filename="Pipe_Elbow" relpath="PipeElbow"/>
+        <PipeTee filename="Pipe_Tee" relpath="PipeTee"/>
+        <SmallActivatorActive filename="Small_Activator_Active" relpath="SmallActivator"/>
+        <SmallActivatorInactive filename="Small_Activator_Inactive" relpath="SmallActivator"/>
+        <SmallButtonActive filename="Small_Button_Active" relpath="SmallButton"/>
+        <SmallButtonInactive filename="Small_Button_Inactive" relpath="SmallButton"/>
+        <BlackPaint filename="Black_Paint" relpath="Paint"/>
+        <BluePaint filename="Blue_Paint" relpath="Paint"/>
+        <BrownPaint filename="Brown_Paint" relpath="Paint"/>
+        <GreenPaint filename="Green_Paint" relpath="Paint"/>
+        <OrangePaint filename="Orange_Paint" relpath="Paint"/>
+        <PurplePaint filename="Purple_Paint" relpath="Paint"/>
+        <RedPaint filename="Red_Paint" relpath="Paint"/>
+        <YellowPaint filename="Yellow_Paint" relpath="Paint"/>
+        <WhitePaint filename="White_Paint" relpath="Paint"/>
+        <AdvancedHardener filename="Advanced_Hardener" relpath="Capsule"/>
+        <BastynCapsule filename="Bastyn_Capsule" relpath="Capsule"/>
+        <ChabazCapsule filename="Chabaz_Capsule" relpath="Capsule"/>
+        <CinnabarCapsule filename="Cinnabar_Capsule" relpath="Capsule"/>
+        <DolomCapsule filename="Dolom_Capsule" relpath="Capsule"/>
+        <FertikeenCapsule filename="Fertikeen_Capsule" relpath="Capsule"/>
+        <HattelCapsule filename="Hattel_Capsule" relpath="Capsule"/>
+        <HylatCapsule filename="Hylat_Capsule" relpath="Capsule"/>
+        <JisperCapsule filename="Jisper_Capsule" relpath="Capsule"/>
+        <LarimarCapsule filename="Larimar_Capsule" relpath="Capsule"/>
+        <LukrahCapsule filename="Lukrah_Capsule" relpath="Capsule"/>
+        <MacetCapsule filename="Macet_Capsule" relpath="Capsule"/>
+        <MattiseCapsule filename="Mattise_Capsule" relpath="Capsule"/>
+        <NocxCapsule filename="Nocx_Capsule" relpath="Capsule"/>
+        <RammetCapsule filename="Rammet_Capsule" relpath="Capsule"/>
+        <SapsunCapsule filename="Sapsun_Capsule" relpath="Capsule"/>
+        <SertiseCapsule filename="Sertise_Capsule" relpath="Capsule"/>
+        <SintyrCapsule filename="Sintyr_Capsule" relpath="Capsule"/>
+        <StandardHardener filename="Standard_Hardener" relpath="Capsule"/>
+        <SugilCapsule filename="Sugil_Capsule" relpath="Capsule"/>
+        <TektCapsule filename="Tekt_Capsule" relpath="Capsule"/>
+        <ThrensCapsule filename="Threns_Capsule" relpath="Capsule"/>
+        <VaratCapsule filename="Varat_Capsule" relpath="Capsule"/>
+        <VarisCapsule filename="Varis_Capsule" relpath="Capsule"/>
+        <ZercanerCapsule filename="Zercaner_Capsule" relpath="Capsule"/>
+        <BlueConsole filename="Blue_Console" relpath="Console"/>
+        <BlueConsoleInnerCorner filename="Blue_Console_Inner_Corner" relpath="ConsoleInnerCorner"/>
+        <BlueConsoleOuterCorner filename="Blue_Console_Outer_Corner" relpath="ConsoleOuterCorner"/>
+        <GreenConsoleInnerCorner filename="Green_Console_Inner_Corner" relpath="ConsoleInnerCorner"/>
+        <GreenConsole filename="Green_Console" relpath="Console"/>
+        <GreenConsoleOuterCorner filename="Green_Console_Outer_Corner" relpath="ConsoleOuterCorner"/>
+        <OrangeConsole filename="Orange_Console" relpath="Console"/>
+        <OrangeConsoleInnerCorner filename="Orange_Console_Inner_Corner" relpath="ConsoleInnerCorner"/>
+        <OrangeConsoleOuterCorner filename="Orange_Console_Outer_Corner" relpath="ConsoleOuterCorner"/>
+        <RedConsole filename="Red_Console" relpath="Console"/>
+        <RedConsoleInnerCorner filename="Red_Console_Inner_Corner" relpath="ConsoleInnerCorner"/>
+        <RedConsoleOuterCorner filename="Red_Console_Outer_Corner" relpath="ConsoleOuterCorner"/>
+        <BeaconLightBar filename="Beacon_Light_Bar" relpath="LightBar"/>
+        <BeaconLightCorner filename="Beacon_Light_Corner" relpath="LightCorner"/>
+        <BlackLightBar filename="Black_Light_Bar" relpath="LightBar"/>
+        <BlackLightCorner filename="Black_Light_Corner" relpath="LightCorner"/>
+        <BlueLightBar filename="Blue_Light_Bar" relpath="LightBar"/>
+        <BlueLightCorner filename="Blue_Light_Corner" relpath="LightCorner"/>
+        <GreenLightBar filename="Green_Light_Bar" relpath="LightBar"/>
+        <GreenLightCorner filename="Green_Light_Corner" relpath="LightCorner"/>
+        <OrangeLightBar filename="Orange_Light_Bar" relpath="LightBar"/>
+        <OrangeLightCorner filename="Orange_Light_Corner" relpath="LightCorner"/>
+        <PinkLightBar filename="Pink_Light_Bar" relpath="LightBar"/>
+        <PinkLightCorner filename="Pink_Light_Corner" relpath="LightCorner"/>
+        <PurpleLightBar filename="Purple_Light_Bar" relpath="LightBar"/>
+        <PurpleLightCorner filename="Purple_Light_Corner" relpath="LightCorner"/>
+        <RedLightBar filename="Red_Light_Bar" relpath="LightBar"/>
+        <RedLightCorner filename="Red_Light_Corner" relpath="LightCorner"/>
+        <TealLightBar filename="Teal_Light_Bar" relpath="LightBar"/>
+        <TealLightCorner filename="Teal_Light_Corner" relpath="LightCorner"/>
+        <YellowLightBar filename="Yellow_Light_Bar" relpath="LightBar"/>
+        <WhiteLightBar filename="White_Light_Bar" relpath="LightBar"/>
+        <WhiteLightCorner filename="White_Light_Corner" relpath="LightCorner"/>
+        <YellowLightCorner filename="Yellow_Light_Corner" relpath="LightCorner"/>
+        <BeaconLightRod filename="Beacon_Light_Rod" relpath="LightRod"/>
+        <BlackLightRod filename="Black_Light_Rod" relpath="LightRod"/>
+        <BlueLightRod filename="Blue_Light_Rod" relpath="LightRod"/>
+        <GreenLightRod filename="Green_Light_Rod" relpath="LightRod"/>
+        <OrangeLightRod filename="Orange_Light_Rod" relpath="LightRod"/>
+        <PinkLightRod filename="Pink_Light_Rod" relpath="LightRod"/>
+        <PurpleLightRod filename="Purple_Light_Rod" relpath="LightRod"/>
+        <RedLightRod filename="Red_Light_Rod" relpath="LightRod"/>
+        <TealLightRod filename="Teal_Light_Rod" relpath="LightRod"/>
+        <YellowLightRod filename="Yellow_Light_Rod" relpath="LightRod"/>
+        <WhiteLightRod filename="White_Light_Rod" relpath="LightRod"/>
+    </LOD>
+    
+    <Collision path="/models/collision/">
+        <CollisionBar filename="Bar_COL" relpath="Bar"/>
+        <CollisionBarCorner filename="Bar_Corner_COL" relpath="BarCorner"/>
+        <CollisionCapsule filename="Capsule_COL" relpath="Capsule"/>
+        <CollisionConsole filename="Console_COL" relpath="Console"/>
+        <CollisionConsoleInnerCorner filename="Console_Inner_Corner_COL" relpath="ConsoleInnerCorner"/>
+        <CollisionConsoleOuterCorner filename="Console_Outer_Corner_COL" relpath="ConsoleOuterCorner"/>
+        <CollisionGrate filename="Grate_COL" relpath="Grate"/>
+        <CollisionGrateCorner filename="Grate_Corner_COL" relpath="GrateCorner"/>
+        <CollisionGrateSlope filename="Grate_Slope_COL" relpath="GrateSlope"/>
+        <CollisionGrateWedge filename="Grate_Wedge_COL" relpath="GrateWedge"/>
+        <CollisionPipe filename="Pipe_COL" relpath="Pipe"/>
+        <CollisionPipeCross filename="Pipe_Cross_COL" relpath="PipeCross"/>
+        <CollisionPipeElbow filename="Pipe_Elbow_COL" relpath="PipeElbow"/>
+        <CollisionPipeTee filename="Pipe_Tee_COL" relpath="PipeTee"/>
+        <CollisionRod filename="Rod_COL" relpath="Rod"/>
+        <CollisionSmallButton filename="Small_Button_COL" relpath="SmallButton"/>
+    </Collision>
+	<Character path="/models/character/">
+		
+		
+		<Konata filename="konata"> </Konata>
+		<PlayerMdl filename="PlayerMdl"> 
+		
+		
+
+		
+		<Creature>
+			<Type>human</Type>
+			<PartType>bottom,middle,top</PartType>
+			
+			<AttachmentBones>
+				<Main>rootOrigin</Main>
+				<UpperBody>PlSkelChest</UpperBody>
+				<Head>RootHead</Head>
+				<RightHand>RootHandR</RightHand>
+				<LeftHand>RootHandL</LeftHand>
+				<RightHolster>RootHolsterR</RightHolster>
+				<LeftHolster>RootHolsterL</LeftHolster>
+				<RightBackHolster>RootHolsterRBack</RightBackHolster>
+				<LeftBackHolster>RootHolsterLBack</LeftBackHolster>
+				<RightForeArm>RootForearmR</RightForeArm>
+				<LeftForeArm>RootForearmL</LeftForeArm>
+				<Neck>PlSkelNeck2</Neck>
+				<RightCollarBone>PlSkelRArmCollarbone</RightCollarBone>
+				<LeftCollarBone>PlSkelLArmCollarbone</LeftCollarBone>
+				
+				<Held>RootHeld</Held>
+			</AttachmentBones>
+				<MaxScale>
+					<X>10</X>
+                    <Y>10</Y>
+                    <Z>10</Z>
+				</MaxScale>
+			<BoxDim>
+				<X>1</X>
+                    <Y>1</Y>
+                    <Z>1</Z>
+			</BoxDim>
+		</Creature> 
+		<Animation>
+				<Attacking>
+					<Melee>
+						<Floating>
+							<Item>FreeFlyIdle</Item>
+						</Floating>
+						
+						<Gravity>
+							<Item>StandIdle</Item>
+						</Gravity>
+					</Melee>
+				</Attacking>
+				<Death>
+					<Floating>
+						<Item>FreeFlyDeath</Item>
+					</Floating>
+					
+					<Gravity>
+						<Item>StandDeath</Item>
+					</Gravity>
+				</Death>
+				
+				<Sitting>
+					<Block>
+						<NoFloor>
+							<Idle>
+								<Item>SitBlAIdle</Item>
+							</Idle>
+						</NoFloor>
+						<Floor>
+							<Idle>
+								<Item>SitFlAIdle</Item>
+							</Idle>
+						</Floor>
+					</Block>
+					
+					<Wedge>
+						<NoFloor>
+							<Idle>
+								<Item>SitWgBIdle</Item>
+							</Idle>
+						</NoFloor>
+						<Floor>
+							<Idle>
+								<Item>SitWgAIdle</Item>
+							</Idle>
+						</Floor>
+					</Wedge>
+				</Sitting>
+				
+				<Hit>
+					<Small>
+						<Floating>
+							<Item>FreeFlyHitSmall</Item>
+						</Floating>
+						
+						<Gravity>
+							<Item>StandHitSmall</Item>
+						</Gravity>
+					</Small>
+				</Hit>
+				<Dancing default="default">
+					
+					<Gravity>
+						<Item>StandEDanceShepard</Item>
+					</Gravity>
+				
+				</Dancing>
+				
+				<Idling default="default">
+					<Floating>
+						<Item>FreeFlyIdle</Item>
+					</Floating>
+					
+					<Gravity>
+						<Item>StandIdle</Item>
+					</Gravity>
+				
+				</Idling>
+				<Salutes>
+					<Salute>
+						<Item>StandESaluteA</Item>
+					</Salute>
+				</Salutes>
+				<Talk>
+					<Salute>
+						<Item>StandETalkA</Item>
+					</Salute>
+				</Talk>
+				<Moving default="default">
+				
+					<Jumping>
+						<JumpUp>
+							<Item>StandJump</Item>
+						</JumpUp>
+						<JumpDown>
+							<Item>StandJump</Item>
+						</JumpDown>
+					</Jumping>
+					<Falling>
+						<Standard>
+							<Item>StandFall</Item>
+						</Standard>
+						<Ledge>
+							<Item>StandFallEnt</Item>
+						</Ledge>
+					</Falling>
+					<Landing>
+						<ShortFall>
+							<Item>StandFallLand</Item>
+						</ShortFall>
+						<MiddleFall>
+							<Item>StandFallLand</Item>
+						</MiddleFall>
+						<LongFall>
+							<Item>StandFallLand</Item>
+						</LongFall>
+					</Landing>
+					
+					<NoGravity>
+						<GravToNoGrav>
+							<Item>FreeFlyEntry</Item>
+						</GravToNoGrav>
+						<NoGravToGrav>
+							<Item>FreeFlyLand</Item>
+						</NoGravToGrav>
+						<FloatMoveN>
+							<Item>FreeFlyMoveN</Item>
+						</FloatMoveN>
+						<FloatMoveS>
+							<Item>FreeFlyMoveS</Item>
+						</FloatMoveS>
+						<FloatMoveUp>
+							<Item>FreeFlyMoveUp</Item>
+						</FloatMoveUp>
+						<FloatMoveDown>
+							<Item>FreeFlyMoveDn</Item>
+						</FloatMoveDown>
+						<FloatRot>
+							<Item>FreeFlyRot</Item>
+						</FloatRot>
+						<FloatHit>
+							<Item>FreeFlyHitSmall</Item>
+						</FloatHit>
+						<FloatDeath>
+							<Item>FreeFlyDeath</Item>
+						</FloatDeath>
+					</NoGravity>
+					
+					
+					
+					<ByFoot default="standwalkN">
+						<Crawling>
+							<North>
+								<Item>StandWalkN</Item>
+							</North>
+							<South>
+								<Item>StandWalkN</Item>
+							</South>
+							<West>
+								<Item>StandWalkN</Item>
+							</West>
+							<East>
+								<Item>StandWalkN</Item>
+							</East>
+							<NorthEast>
+								<Item>StandWalkN</Item>
+							</NorthEast>
+							<NorthWest>
+								<Item>StandWalkN</Item>
+							</NorthWest>
+							<SouthWest>
+								<Item>StandWalkN</Item>
+							</SouthWest>
+							<SouthEast>
+								<Item>StandWalkN</Item>
+							</SouthEast>
+						</Crawling>
+						<SlowWalking>
+							<North>
+								<Item>StandWalkN</Item>
+							</North>
+							<South>
+								<Item>StandWalkN</Item>
+							</South>
+							<West>
+								<Item>StandWalkN</Item>
+							</West>
+							<East>
+								<Item>StandWalkN</Item>
+							</East>
+							<NorthEast>
+								<Item>StandWalkN</Item>
+							</NorthEast>
+							<NorthWest>
+								<Item>StandWalkN</Item>
+							</NorthWest>
+							<SouthWest>
+								<Item>StandWalkN</Item>
+							</SouthWest>
+							<SouthEast>
+								<Item>StandWalkN</Item>
+							</SouthEast>
+						</SlowWalking>
+						<Walking>
+							<North>
+								<Item>StandWalkN</Item>
+							</North>
+							<South>
+								<Item>StandWalkS</Item>
+							</South>
+							<West>
+								<Item>StandWalkW</Item>
+							</West>
+							<East>
+								<Item>StandWalkE</Item>
+							</East>
+							<NorthEast>
+								<Item>StandWalkNE</Item>
+							</NorthEast>
+							<NorthWest>
+								<Item>StandWalkNW</Item>
+							</NorthWest>
+							<SouthWest>
+								<Item>StandWalkSW</Item>
+							</SouthWest>
+							<SouthEast>
+								<Item>StandWalkSE</Item>
+							</SouthEast>
+						</Walking>
+						<Running>
+							<North>
+								<Item>StandRunN</Item>
+							</North>
+							<South>
+								<Item>StandRunS</Item>
+							</South>
+							<West>
+								<Item>StandRunW</Item>
+							</West>
+							<East>
+								<Item>StandRunE</Item>
+							</East>
+							<NorthEast>
+								<Item>StandRunNE</Item>
+							</NorthEast>
+							<NorthWest>
+								<Item>StandRunNW</Item>
+							</NorthWest>
+							<SouthWest>
+								<Item>StandRunSW</Item>
+							</SouthWest>
+							<SouthEast>
+								<Item>StandRunSE</Item>
+							</SouthEast>
+						</Running>
+					</ByFoot>
+					
+				</Moving>
+				<Helmet>
+					<On>
+						<Item>HelmOnA</Item>
+					</On>
+					<Off>
+						<Item>HelmOffA</Item>
+					</Off>
+				</Helmet>
+				<UpperBody>
+					<Gun>
+						<Idle>
+							<Item>g1hIdle</Item>
+						</Idle>
+						<IdleIn>
+							<Item>g1hIdleIn</Item>
+						</IdleIn>
+						<Draw>
+							<Item>g1hDraw</Item>
+						</Draw>
+						<Away>
+							<Item>g1hAway</Item>
+						</Away>
+						<Fire>
+							<Item>g1hFire</Item>
+						</Fire>
+						<FireHeavy>
+							<Item>g1hFireHeavy</Item>
+						</FireHeavy>
+						<Melee>
+							<Item>g1hStrikeA</Item>
+						</Melee>
+					</Gun>
+					
+					<Fabricator>
+						<Idle>
+							<Item>fabIdle</Item>
+						</Idle>
+						<Draw>
+							<Item>fabDraw</Item>
+						</Draw>
+						<Away>
+							<Item>fabAway</Item>
+						</Away>
+						<Fire>
+							<Item>fabFire</Item>
+						</Fire>
+						<PumpAction>
+							<Item>fabPumpAction</Item>
+						</PumpAction>
+					</Fabricator>
+					
+					<BareHand>
+						<Melee>
+							<Item>g1hStrikeA</Item>
+						</Melee>
+					</BareHand>
+				</UpperBody>
+				
+				
+			</Animation>
+		
+		
+		</PlayerMdl>
+		
+		<HoppyLegs filename="hoppy_legs">
+			<Texture>
+				<Diffuse>
+					<Item>hoppy_desert.png</Item>
+				</Diffuse>
+				<ColorMap/>
+				<NormalMap/>
+				<SpecularMap/>
+				<EmissionMap/>
+			</Texture>
+			<Creature>
+				<Type>mammal</Type>
+				<PartType>bottom</PartType>
+				<AttachmentBones>
+					<Main>rootPelvis</Main>
+					<UpperBody>rootPelvis</UpperBody>
+					<Head>none</Head>
+					<RightForeArm>none</RightForeArm>
+					<LeftForeArm>none</LeftForeArm>
+					<RightHand>none</RightHand>
+					<LeftHand>none</LeftHand>
+					<RightHolster>none</RightHolster>
+					<LeftHolster>none</LeftHolster>
+					<RightBackHolster>none</RightBackHolster>
+					<LeftBackHolster>none</LeftBackHolster>
+					<Held>none</Held>
+					<Neck>none</Neck>
+					<RightCollarBone>none</RightCollarBone>
+					<LeftCollarBone>none</LeftCollarBone>
+				</AttachmentBones>
+					<MaxScale>
+						<X>2</X>
+                    <Y>2</Y>
+                    <Z>1</Z>
+					</MaxScale>
+				<BoxDim>
+					<X>1</X>
+                    <Y>1</Y>
+                    <Z>1</Z>
+				</BoxDim>
+			</Creature> 
+			<Animation>
+				<Idling default="Idle">
+				
+				</Idling>
+				<Dancing default="Idle"> </Dancing>
+				<Moving default="RunN">
+				
+					<Jumping default="Jump"> </Jumping>
+					<Falling>
+						<Item>Fall</Item>
+					</Falling>
+					<Landing default="Land"> </Landing>
+					<NoGravity default="RunN"> </NoGravity>
+					<ByFoot default="RunN"> </ByFoot>
+					
+				</Moving>
+				<UpperBody>
+					<BareHand default="AttackStep">
+						<Melee>
+							<Item>AttackStep</Item>
+						</Melee>
+					</BareHand>
+				</UpperBody>
+				
+			</Animation>
+		</HoppyLegs>
+		<HoppyBody filename="hoppy_body">
+			<Texture>
+				<Diffuse>
+					<Item>hoppy_desert.png</Item>
+				</Diffuse>
+				<ColorMap/>
+				<NormalMap/>
+				<SpecularMap/>
+				<EmissionMap/>
+			</Texture>
+			<Creature>
+				<Type>mammal</Type>
+				<PartType>middle</PartType>
+				<AttachmentBones>
+					<Main>rootTorso</Main>
+					<UpperBody>rootTorso</UpperBody>
+					<Head>none</Head>
+					<RightForeArm>none</RightForeArm>
+					<LeftForeArm>none</LeftForeArm>
+					<RightHand>none</RightHand>
+					<LeftHand>none</LeftHand>
+					<RightHolster>none</RightHolster>
+					<LeftHolster>none</LeftHolster>
+					<RightBackHolster>none</RightBackHolster>
+					<LeftBackHolster>none</LeftBackHolster>
+					<Held>none</Held>
+					<Neck>none</Neck>
+					<RightCollarBone>none</RightCollarBone>
+					<LeftCollarBone>none</LeftCollarBone>
+				</AttachmentBones>
+					<MaxScale>
+						<X>2</X>
+                    <Y>2</Y>
+                    <Z>1</Z>
+					</MaxScale>
+				<BoxDim>
+					<X>1</X>
+                    <Y>1</Y>
+                    <Z>1</Z>
+				</BoxDim>
+			</Creature> 
+			<Animation>
+				<Idling default="Idle">
+				
+				</Idling>
+				<Dancing default="Idle"> </Dancing>
+				<Moving default="RunN">
+				
+					<Jumping default="Jump"> </Jumping>
+					<Falling>
+						<Item>Fall</Item>
+					</Falling>
+					<Landing default="Land"> </Landing>
+					<NoGravity default="RunN"> </NoGravity>
+					<ByFoot default="RunN"> </ByFoot>
+					
+				</Moving>
+				<UpperBody>
+					<BareHand default="AttackStep">
+						<Melee>
+							<Item>AttackStep</Item>
+						</Melee>
+					</BareHand>
+				</UpperBody>
+				
+			</Animation>
+		</HoppyBody>
+		<LegsArag filename="FaunQuadAracLegs">
+			<Texture>
+				<Diffuse>
+					<Item>QuadLegsTex01.png</Item>
+				</Diffuse>
+				<ColorMap>
+				</ColorMap>
+				<NormalMap>
+				</NormalMap>
+				<SpecularMap>
+				</SpecularMap>
+				<EmissionMap>
+				</EmissionMap>
+			</Texture>
+			<Creature>
+				<Type>arachnid</Type>
+				<PartType>bottom</PartType>
+				
+				<AttachmentBones>
+					<Main>PelvisRoot</Main>
+					<UpperBody>PelvisRoot</UpperBody>
+					<Head>none</Head>
+					<RightForeArm>none</RightForeArm>
+					<LeftForeArm>none</LeftForeArm>
+					<RightHand>none</RightHand>
+					<LeftHand>none</LeftHand>
+					<RightHolster>none</RightHolster>
+					<LeftHolster>none</LeftHolster>
+					<RightBackHolster>none</RightBackHolster>
+					<LeftBackHolster>none</LeftBackHolster>
+					<Held>none</Held>
+					<Neck>none</Neck>
+					<RightCollarBone>none</RightCollarBone>
+					<LeftCollarBone>none</LeftCollarBone>
+				</AttachmentBones>
+					<MaxScale>
+						<X>10</X>
+                    <Y>10</Y>
+                    <Z>10</Z>
+					</MaxScale>
+				<BoxDim>
+					<X>1</X>
+                    <Y>1</Y>
+                    <Z>1</Z>
+				</BoxDim>
+			</Creature> 
+			<Animation>
+				<Idling default="stidle">
+					<Floating>
+						<Item>stidle</Item>
+						<Item>stidle01</Item>
+						<Item>stidle02</Item>
+						<Item>stidle03</Item>
+						<Item>stidle04</Item>
+					</Floating>
+					
+					<Gravity>
+						<Item>stidle</Item>
+						<Item>stidle01</Item>
+						<Item>stidle02</Item>
+						<Item>stidle03</Item>
+						<Item>stidle04</Item>
+					</Gravity>
+				
+				</Idling>
+				<Dancing default="default">
+					
+					<Gravity>
+						<Item>stidle</Item>
+					</Gravity>
+				
+				</Dancing>
+				<Moving default="stwalkN">
+				
+					<Jumping>
+						<JumpUp>
+							<Item>jumpup</Item>
+						</JumpUp>
+						<JumpDown>
+							<Item>jumpdn</Item>
+						</JumpDown>
+					</Jumping>
+					<Falling>
+						<Item>fall</Item>
+					</Falling>
+					<Landing>
+						<Short>
+							<Item>stidle</Item>
+						</Short>
+						<Middle>
+							<Item>stland</Item>
+						</Middle>
+						<Long>
+							<Item>stland</Item>
+						</Long>
+					</Landing>
+					
+					<NoGravity default="stwalkN">
+						<GravToNoGrav>
+							<Item>stwalkN</Item>
+						</GravToNoGrav>
+						<NoGravToGrav>
+							<Item>stwalkN</Item>
+						</NoGravToGrav>
+						<FloatMoveN>
+							<Item>stwalkN</Item>
+						</FloatMoveN>
+						<FloatMoveS>
+							<Item>stwalkN</Item>
+						</FloatMoveS>
+						<FloatMoveUp>
+							<Item>stwalkN</Item>
+						</FloatMoveUp>
+						<FloatMoveDown>
+							<Item>stwalkN</Item>
+						</FloatMoveDown>
+						<FloatRot>
+							<Item>stwalkN</Item>
+						</FloatRot>
+						<FloatHit>
+							<Item>stwalkN</Item>
+						</FloatHit>
+						<FloatDeath>
+							<Item>stwalkN</Item>
+						</FloatDeath>
+					</NoGravity>
+					
+					
+					
+					<ByFoot default="stwalkN">
+						<Crawling>
+							<North>
+								<Item>stwalkN</Item>
+							</North>
+							<South>
+								<Item>stwalkN</Item>
+							</South>
+							<West>
+								<Item>stwalkN</Item>
+							</West>
+							<East>
+								<Item>stwalkN</Item>
+							</East>
+							<NorthEast>
+								<Item>stwalkN</Item>
+							</NorthEast>
+							<NorthWest>
+								<Item>stwalkN</Item>
+							</NorthWest>
+							<SouthWest>
+								<Item>stwalkN</Item>
+							</SouthWest>
+							<SouthEast>
+								<Item>stwalkN</Item>
+							</SouthEast>
+						</Crawling>
+						<SlowWalking>
+							<North>
+								<Item>stwalkN</Item>
+							</North>
+							<South>
+								<Item>stwalkN</Item>
+							</South>
+							<West>
+								<Item>stwalkN</Item>
+							</West>
+							<East>
+								<Item>stwalkN</Item>
+							</East>
+							<NorthEast>
+								<Item>stwalkN</Item>
+							</NorthEast>
+							<NorthWest>
+								<Item>stwalkN</Item>
+							</NorthWest>
+							<SouthWest>
+								<Item>stwalkN</Item>
+							</SouthWest>
+							<SouthEast>
+								<Item>stwalkN</Item>
+							</SouthEast>
+						</SlowWalking>
+						<Walking>
+							<North>
+								<Item>stwalkN</Item>
+							</North>
+							<South>
+								<Item>stwalkN</Item>
+							</South>
+							<West>
+								<Item>stwalkN</Item>
+							</West>
+							<East>
+								<Item>stwalkN</Item>
+							</East>
+							<NorthEast>
+								<Item>stwalkN</Item>
+							</NorthEast>
+							<NorthWest>
+								<Item>stwalkN</Item>
+							</NorthWest>
+							<SouthWest>
+								<Item>stwalkN</Item>
+							</SouthWest>
+							<SouthEast>
+								<Item>stwalkN</Item>
+							</SouthEast>
+						</Walking>
+						<Running>
+							<North>
+								<Item>stwalkN</Item>
+							</North>
+							<South>
+								<Item>stwalkN</Item>
+							</South>
+							<West>
+								<Item>stwalkN</Item>
+							</West>
+							<East>
+								<Item>stwalkN</Item>
+							</East>
+							<NorthEast>
+								<Item>stwalkN</Item>
+							</NorthEast>
+							<NorthWest>
+								<Item>stwalkN</Item>
+							</NorthWest>
+							<SouthWest>
+								<Item>stwalkN</Item>
+							</SouthWest>
+							<SouthEast>
+								<Item>stwalkN</Item>
+							</SouthEast>
+						</Running>
+					</ByFoot>
+					
+				</Moving>
+				<UpperBody>
+					<BareHand default="statkleg">
+						<Melee>
+							<Item>statkleg</Item>
+						</Melee>
+					</BareHand>
+				</UpperBody>
+				
+				
+			</Animation>
+		</LegsArag>
+		<TorsoShell filename="FaunQuadBodyShell"> 
+			<Creature>
+				<Type>aracnic</Type>
+				<PartType>middle</PartType>
+				<AttachmentBones>
+					<Main>PelvisRoot</Main>
+					<UpperBody>PelvisRoot</UpperBody>
+					<RightForeArm>none</RightForeArm>
+					<LeftForeArm>none</LeftForeArm>
+					<Head>none</Head>
+					<RightHand>none</RightHand>
+					<LeftHand>none</LeftHand>
+					<RightHolster>none</RightHolster>
+					<LeftHolster>none</LeftHolster>
+					<RightBackHolster>none</RightBackHolster>
+					<LeftBackHolster>none</LeftBackHolster>
+					<Neck>none</Neck>
+					<RightCollarBone>none</RightCollarBone>
+					<LeftCollarBone>none</LeftCollarBone>
+					<Held>none</Held>
+				</AttachmentBones>
+				<MaxScale>
+					<X>10</X>
+                    <Y>10</Y>
+                    <Z>10</Z>
+				</MaxScale>
+				<BoxDim>
+					<X>1</X>
+                    <Y>1</Y>
+                    <Z>1</Z>
+				</BoxDim>
+			</Creature> 
+			<Texture>
+				<Diffuse>
+					<Item>QuadLegsTex01.png</Item>
+				</Diffuse>
+				<ColorMap>
+				</ColorMap>
+				<NormalMap>
+				</NormalMap>
+				<SpecularMap>
+				</SpecularMap>
+				<EmissionMap>
+				</EmissionMap>
+			</Texture>
+		</TorsoShell>
+	</Character>
+</Model>
