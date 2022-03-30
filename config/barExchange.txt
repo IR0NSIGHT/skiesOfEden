@@ -1,5 +1,0 @@
-Suggested changes to bar exchange:
-- use bronze to buy metal mesh and crystal composite (asked players if they prefer mesh+composite or components, they wanted mesh+comp)
-Suggested addition to bar exchange:
-- use silver to buy bigger amount + 5% extra of bronze offers (buying bigger gives a discount):
-	- example: 1 bronze = 100k metal mesh, -> 5 bronze = 1 silver = 5*100k + 10% extra metal mesh = 550k metal mesh

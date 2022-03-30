@@ -1,0 +1,39 @@
+- tackle biggest causes of frustration of the players
+	- quick start after joining, shorten early-grinding time
+		- provide ships+stations:
+			- miner
+			- freighter
+			- siphon
+			- factory/storage
+		- provide starting materials of all resource types
+		- provide bars to buy specific things needed by the player
+	- fix offline extractors
+	- ensure no further resource zone shuffle
+	- gate network that connects with at least one of every zone type
+	
+- provide a stable server environment
+	- mods
+		- ensure mods do what they promise, all promised features work as intended.
+		- ensure mods dont cause bugs
+		- ensure mods dont cause lag
+		If a mod hurts any of these conditions, it has to be removed.
+		if a mod breaks something, it is reverted to a prior version or removed. NO HOT PATCHING IN A LIVE SYSTEM
+
+		Adding new mods:
+		- new mods have to be announced in adminchannel early
+		- mods are locally tested by someone ELSE than the author.
+		- mod is added AFTER being tested and approved.
+		
+	- starmade
+		- the server is only updated AFTER being tested locally with ALL MODS on a dedicated machine with clients.
+	
+	- admin
+		- file changes/manipulation
+			- ALWAYS backup the file, download to local with A CLEAR LABLE FOR IDENTIFICATION.
+			- always announce that this file was manipulated.
+		- streamlining
+			- all changes have to be announced, in detail in the admin channel
+			- big changes (config, new mods, new features) have to be announced at least 2 days early and approved by everyone.
+			- all config changes go THROUGH THE SOE GITHUB, with detailed commit messages stating change AND intention of change.
+			- config changes are announced publicly on the discord with [before, after, intention/reason]
+			- no public announcements about the server without discussing it with all admins first.
