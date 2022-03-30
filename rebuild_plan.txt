@@ -16,7 +16,7 @@
 		- ensure mods do what they promise, all promised features work as intended.
 		- ensure mods dont cause bugs
 		- ensure mods dont cause lag
-		If a mod hurts any of these conditions, it has to be removed.
+		If a mod hurts any of these conditions, it has to be removed immediatly.
 		if a mod breaks something, it is reverted to a prior version or removed. NO HOT PATCHING IN A LIVE SYSTEM
 
 		Adding new mods:
@@ -31,9 +31,18 @@
 		- file changes/manipulation
 			- ALWAYS backup the file, download to local with A CLEAR LABLE FOR IDENTIFICATION.
 			- always announce that this file was manipulated.
+		- configs
+			- changes are discussed among admins at least 1 day early.
+			- all config changes go THROUGH THE SOE GITHUB, with detailed commit messages stating change AND intention of change.
+			- config changes are announced publicly on the discord in form of [value before, value after, intention/reason].
+
 		- streamlining
 			- all changes have to be announced, in detail in the admin channel
-			- big changes (config, new mods, new features) have to be announced at least 2 days early and approved by everyone.
-			- all config changes go THROUGH THE SOE GITHUB, with detailed commit messages stating change AND intention of change.
-			- config changes are announced publicly on the discord with [before, after, intention/reason]
+			- big changes (config, new mods, new features) have to be announced at least 2 days early and APPROVED BY ALL ADMINS
 			- no public announcements about the server without discussing it with all admins first.
+			- fuck ups have to be reported IMMEDIATLY so all admins know whats going on.
+			- if you dont know how to do something 100%, ASK OTHERS BEFORE YOU EXPERIMENT.
+			- admin matters are discussed in admin channels
+			- disagreement of admin matters are not broadcast publicly
+			- a decision/action made by an admin is not reverted by another admin without discussing it first in-depth in the admin channel.
+			
