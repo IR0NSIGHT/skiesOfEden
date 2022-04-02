@@ -14,12 +14,21 @@
 	## resources
 		- metal
 		- crystal
+
+# spawn station
+	- spawn inside a station
+	- greeting text referencing 
+		- !glossar
+		- Discord
+		- miner blueprint in inventory
 		
 # gate network
 	- making all zonetypes accessible
 	
-# updated pirate stations
-
+# pirates
+	- updated pirate stations
+	- make ships accessible to pirates
+	
 # updated npc stations and ships
 	
 
