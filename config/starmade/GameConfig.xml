@@ -106,20 +106,23 @@
 			<Slot>inventory</Slot>
 		</Logbook>
 				
-		<Blueprint>
+		<Blueprint> <!-- Badger miner ~3k mass -->
 			<Name>Badger Mk 4</Name>
 			<Filled>true</Filled>
 			<Slot>inventory</Slot>
 		</Blueprint>
 		
-		<Blueprint>
+		<Blueprint> <!-- ugly start station ~7k mass with fat factories -->
 			<Name>Starter_Station</Name>
 			<Filled>true</Filled>
 			<Slot>inventory</Slot>
-		</Blueprint>
-
-
+		</Blueprint>	
 		
+		<Block>
+			<Id>1146</Id>  <!-- bronze bar-->
+			<Count>20</Count>
+			<Slot>inventory</Slot>
+		</Block>
 	</StartingGear>
 
 	<SunHeatDamage>
