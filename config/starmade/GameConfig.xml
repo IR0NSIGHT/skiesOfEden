@@ -69,7 +69,7 @@
 			<Count>30</Count>
 			<Slot>hotbar</Slot>
 		</Block>
-		
+				
 		<Block>
 			<Id>1</Id>  <!-- core -->
 			<Count>50</Count>
@@ -105,19 +105,20 @@
 			<Message>Personal Logbook</Message>
 			<Slot>inventory</Slot>
 		</Logbook>
-		
-		<!-- uncomment and edit the following to give the player a blueprint at the start -->
-		
+				
 		<Blueprint>
 			<Name>Badger Mk 4</Name>
 			<Filled>true</Filled>
 			<Slot>inventory</Slot>
 		</Blueprint>
-		<!-- 
-		<BuildInhibiter>
+		
+		<Blueprint>
+			<Name>Starter_Station</Name>
+			<Filled>true</Filled>
 			<Slot>inventory</Slot>
-		</BuildInhibiter>
-		 -->
+		</Blueprint>
+
+
 		
 	</StartingGear>
 
