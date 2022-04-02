@@ -24,18 +24,19 @@ effects apply that increase the base size defined in the blockBehaviourConfig:
 
 208 = 1.5*x <=> 208/1.5 = x
 208 = x /1.5
+
+
 placement of gates:
 outward gate:
 /teleport_to admin_ir0nsight 200 0 -2000  //x correct needed because the gate center is offset from the station center
 inward/coreward gate:
 /teleport_to admin_ir0nsight 200 0 2000
 
+
 List of gates:
 0, 0, 0 				Eden Prime
--120, 0, -40 			Guggenmos
--300, 30, -20  			Bloodlust II
--410, 10, -40 	 		Midnight Vale
-30, 50, 0 				Safe Heavens
-
+-159, 21, -79			Minotaur
+19, 21, 200				Agathas Grave
+140, 38, -122			Lightrider
 PVE Areas:
 Safe Heavens: [0,32,-32]-[48,64,48]
