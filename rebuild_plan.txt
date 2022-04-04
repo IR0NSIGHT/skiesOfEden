@@ -37,6 +37,8 @@
 	- betterFleets breaks ship repair
 	- unknown breaks shipyards: kicks all players when ship is spawned
 	- Stronghold has no survival mechanics.
-	- TODO: does FAE work?
+	
+	# enabled mods
+	- FAE (works, tested on server)
 
 	
