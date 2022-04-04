@@ -41,4 +41,25 @@ List of gates:
 279, 10, 2        Atlassian Cloud
 -111, 9, -270     Locust
 62, 10, -370      Savannah
+-181, 21, 219     Golden Bridge
+-331, 19, 118     Rigel I
+-432, 19, -59     Rigel II
+-429, 20, -252    Rigel III
+
+
+
+//commands for protection
+
+/sector_chmod 0 0 0 			+ protected	
+/sector_chmod -159 21 -79		+ protected
+/sector_chmod 19 21 200			+ protected
+/sector_chmod 140 38 -122		+ protected
+/sector_chmod 279 10 2          + protected
+/sector_chmod -111 9 -270       + protected
+/sector_chmod 62 10 -370        + protected  
+/sector_chmod -181 21 219   + protected
+/sector_chmod -331 19 118   + protected
+/sector_chmod -432 19 -59   + protected
+/sector_chmod -429 20 -252  + protected
+
 PVE Areas:
