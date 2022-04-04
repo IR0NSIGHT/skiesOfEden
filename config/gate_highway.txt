@@ -34,9 +34,11 @@ inward/coreward gate:
 
 
 List of gates:
-0, 0, 0 				Eden Prime
+0, 0, 0 				  Eden Prime
 -159, 21, -79			Minotaur
 19, 21, 200				Agathas Grave
 140, 38, -122			Lightrider
+279, 10, 2        Atlassian Cloud
+-111, 9, -270     Locust
+62, 10, -370      Savannah
 PVE Areas:
-Safe Heavens: [0,32,-32]-[48,64,48]
